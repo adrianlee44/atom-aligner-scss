@@ -1,7 +1,7 @@
 {
   "name": "aligner-scss",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS/SASS support for aligner",
   "repository": "https://github.com/adrianlee44/atom-aligner-scss",
   "license": "MIT",
