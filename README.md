@@ -6,3 +6,4 @@
 Aligner must be installed along with this package. For more information, please check out [Aligner](https://github.com/adrianlee44/atom-aligner)
 
 ## Changelog
+- 2015-03-26   v1.0.0   Initial release
