@@ -21,4 +21,4 @@ module.exports =
       title: 'Character scope'
       description: 'Scope string to match'
       type: 'string'
-      default: 'key-value|property-name'
+      default: 'key-value|property-name|operator'
