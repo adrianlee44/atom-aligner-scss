@@ -3,6 +3,13 @@
   "main": "./lib/main",
   "version": "1.0.2",
   "description": "SCSS/SASS support for aligner",
+  "keywords": [
+    "aligner",
+    "alignment",
+    "align",
+    "scss",
+    "sass"
+  ],
   "repository": "https://github.com/adrianlee44/atom-aligner-scss",
   "license": "MIT",
   "engines": {
