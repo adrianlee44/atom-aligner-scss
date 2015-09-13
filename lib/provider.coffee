@@ -2,6 +2,10 @@ module.exports =
   selector: ['.source.css.scss', '.source.sass']
   id: 'aligner-scss' # package name
   config:
+    ':-enabled':
+      title: 'Enable aligning :'
+      type: 'boolean'
+      default: true
     ':-alignment':
       title: 'Padding for :'
       description: 'Pad left or right of the character'
@@ -17,8 +21,25 @@ module.exports =
       description: 'Add 1 whitespace to the right'
       type: 'boolean'
       default: true
-    ':-scope':
-      title: 'Character scope'
-      description: 'Scope string to match'
+    '{-enabled':
+      title: 'Enable aligning {'
+      type: 'boolean'
+      default: false
+    '{-alignment':
+      title: 'Padding for {'
+      description: 'Pad left or right of the character'
       type: 'string'
-      default: 'key-value|property-name|operator'
+      default: 'left'
+    '{-leftSpace':
+      title: 'Left space for {'
+      description: 'Add 1 whitespace to the left'
+      type: 'boolean'
+      default: true
+    '{-rightSpace':
+      title: 'Right space for {'
+      description: 'Add 1 whitespace to the right'
+      type: 'boolean'
+      default: true
+  privateConfig:
+    ':-scope': 'key-value|property-name|operator'
+    '{-scope': 'property-list.begin'
