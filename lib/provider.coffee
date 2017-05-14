@@ -21,6 +21,25 @@ module.exports =
       description: 'Add 1 whitespace to the right'
       type: 'boolean'
       default: true
+    '!-enabled':
+      title: 'Enable aligning !'
+      type: 'boolean'
+      default: false
+    '!-alignment':
+      title: 'Padding for !'
+      description: 'Pad left or right of the character'
+      type: 'string'
+      default: 'left'
+    '!-leftSpace':
+      title: 'Left space for !'
+      description: 'Add 1 whitespace to the left'
+      type: 'boolean'
+      default: true
+    '!-rightSpace':
+      title: 'Right space for !'
+      description: 'Add 1 whitespace to the right'
+      type: 'boolean'
+      default: false
     '{-enabled':
       title: 'Enable aligning {'
       type: 'boolean'
@@ -41,5 +60,6 @@ module.exports =
       type: 'boolean'
       default: true
   privateConfig:
+    '!-scope': 'punctuation'
     ':-scope': 'key-value|property-name|operator'
     '{-scope': 'property-list.begin'
