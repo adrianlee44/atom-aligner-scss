@@ -26,7 +26,8 @@ $tabs-font-size: 16px       !default;
 Aligner must be installed along with this package. For more information, please check out [Aligner](https://github.com/adrianlee44/atom-aligner)
 
 ## Changelog
-- 2017-05-17   v1.2.0   Add support for !. Update documentation .
+- 2017-05-16   v1.2.1   Fix scss code in html not aligning
+- 2017-05-13   v1.2.0   Add support for !. Update documentation .
 - 2015-09-13   v1.1.0   Add support for `{` (disabled by default)
 - 2015-07-28   v1.0.2   Add operator scope to `:`
 - 2015-03-26   v1.0.1   Fixed invalid main script
