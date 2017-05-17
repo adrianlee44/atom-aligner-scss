@@ -1,5 +1,11 @@
 module.exports =
-  selector: ['.source.css.scss', '.source.sass', '.text.html.basic'] # .text.html.basic is a temporary hack to support inline
+  selector: [
+    '.source.css.scss',
+    '.source.sass',
+    '.source.css.embedded.html', # .source.css.embedded.html is a temporary hack to support inline
+    '.source.sass.embedded.html',
+    '.source.css.scss.embedded.html'
+  ]
   id: 'aligner-scss' # package name
   config:
     ':-enabled':
